@@ -4,22 +4,25 @@
     <link rel="stylesheet" href="TicTacToe.css">
 </head>
 <body>
-    <input type"text" id="b1" onclick="clickButton(this);" readonly>
-    <input type"text" id="b2" onClick="clickButton(this);" readonly>
-    <input type"text" id="b3" onClick="clickButton(this);" readonly>
+    <input type"text" id="b1" onclick="clickCell(this);" readonly>
+    <input type"text" id="b2" onClick="clickCell(this);" readonly>
+    <input type"text" id="b3" onClick="clickCell(this);" readonly>
     <br>
-    <input type"text" id="b4" onClick="clickButton(this);" readonly>
-    <input type"text" id="b5" onClick="clickButton(this);" readonly>
-    <input type"text" id="b6" onClick="clickButton(this);" readonly>
+    <input type"text" id="b4" onClick="clickCell(this);" readonly>
+    <input type"text" id="b5" onClick="clickCell(this);" readonly>
+    <input type"text" id="b6" onClick="clickCell(this);" readonly>
     <br>
-    <input type"text" id="b7" onClick="clickButton(this);" readonly>
-    <input type"text" id="b8" onClick="clickButton(this);" readonly>
-    <input type"text" id="b9" onClick="clickButton(this);" readonly>
+    <input type"text" id="b7" onClick="clickCell(this);" readonly>
+    <input type"text" id="b8" onClick="clickCell(this);" readonly>
+    <input type"text" id="b9" onClick="clickCell(this);" readonly>
     
      <br>
-     The player 1 is 0 
+     The player 1 is x 
      <br>
-     The player 2 is x
+     The player 2 is 0
+     <div id="divId"></div>
+     <br>
+     <button onclick="reset()">RESET THE GAME</button>
 
 </body>
 <script src="TicTacToe.js"></script>
